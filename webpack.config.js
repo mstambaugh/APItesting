@@ -19,7 +19,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'My Project',
+      title: 'APItesting',
       template: './src/index.html',
       inject: 'body'
     })
